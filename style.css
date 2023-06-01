@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back {
+    background-color: #EDF1FA;
+}
+.waiting {
+    width: 80%;
+    background-color: #fff;
+    margin: 15px auto;
+}
+.fot {
+    color: #2E313E;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+}
+.head {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px; 
+}
+.para {
+    text-align: center;
+}
+
+/* font-family: 'Manrope', sans-serif; */
