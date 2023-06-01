@@ -3,13 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .back {
     background-color: #EDF1FA;
+    padding-bottom: 20px;
 }
+
+h1 {
+    text-align: center;
+}
+
 .waiting {
-    width: 80%;
+    width: 92%;
     background-color: #fff;
     margin: 15px auto;
+}
+.waiting-1 {
+    width: 98%;
+    margin: auto;
+    padding: 7px;
 }
 .fot {
     color: #2E313E;
@@ -19,11 +37,37 @@
 .head {
     font-size: 18px;
     font-weight: bold;
-    text-align: center;
     padding-top: 30px; 
 }
 .para {
-    text-align: center;
+    font-size: 9px;
+}
+form {
+    margin-top: 20px;
+}
+
+.bus-name {
+    font-weight: 600;
+    font-size: 12px;
+}
+form div {
+    margin-bottom: 25px;
+}
+input {
+    width: 90%;
+    border: 2px solid #2E313E;
+}
+.btn-wait {
+    width: 90%;
+    background-color: #262D50;
+    color: #fff;
+    padding: 4px 2px;
+    margin-bottom: 15px;
 }
 
 /* font-family: 'Manrope', sans-serif; */
+@media (max-width: 787px) {
+    .head-back {
+        display: none;
+    }
+}
