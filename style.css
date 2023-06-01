@@ -65,6 +65,41 @@ input {
     margin-bottom: 15px;
 }
 
+/* pop Up */
+.pop {
+    width: 60%;
+    height: 300px;
+    margin: 100px auto;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pop-p {
+    margin: 20px;
+    padding: 4px 9px;
+    color: #4F3700;
+    background-color: #FFF7E6;
+    border: 2px solid #ffc233;
+    border-radius: 40%;
+}
+.pop-p-1 {
+    color: #29B870;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 15px;
+}
+.pop-2 {
+    margin-bottom: 20px;
+}
+.fa-instagram, .fa-twitter {
+     color: black;
+  }
+
 /* font-family: 'Manrope', sans-serif; */
 @media (max-width: 787px) {
     .head-back {
